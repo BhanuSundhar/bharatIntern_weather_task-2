@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathr site</title>
+    <!-- javascript file -->
+    <script src="script.js" ></script>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="main.css" />
+    <!--<link rel="stylesheet" href="CSS/all.min.css" />
+        <link rel="stylesheet" href="CSS/fontawesome.min.css" />
+    -->
+        <!-- icons -->
+    <script src="https://kit.fontawesome.com/5feeb31ecc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="weather-main" >
+        <div class="weather-first" >
+            <h2>Weather App</h2>
+        </div>
+        <div class="input-search-div" >
+            <input type="text" placeholder="Enter your city" id="search" autofocus required />
+            <input type="button" value="Get" id="btn" onclick="myBtn()" />
+        </div>
+        <div class="weather-info" >
+            <icon id="icon" ></icon>
+            <div class="temp" >
+                <span id="temp-value" ></span>
+                <span id="unit" ></span>
+                <span id="c" ></span>
+            </div>
+            <div id="weather-des" ></div>
+            <div id="location" ></div>
+        </div>
+    </div>
+</body>
+</html>
